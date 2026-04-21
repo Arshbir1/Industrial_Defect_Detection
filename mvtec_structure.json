@@ -1,0 +1,298 @@
+{
+    "bottle": {
+        "train": {
+            "good": 209
+        },
+        "test": {
+            "broken_large": 20,
+            "broken_small": 22,
+            "contamination": 21,
+            "good": 20
+        },
+        "ground_truth": {
+            "broken_large": 20,
+            "broken_small": 22,
+            "contamination": 21
+        }
+    },
+    "cable": {
+        "train": {
+            "good": 224
+        },
+        "test": {
+            "bent_wire": 13,
+            "cable_swap": 12,
+            "combined": 11,
+            "cut_inner_insulation": 14,
+            "cut_outer_insulation": 10,
+            "good": 58,
+            "missing_cable": 12,
+            "missing_wire": 10,
+            "poke_insulation": 10
+        },
+        "ground_truth": {
+            "bent_wire": 13,
+            "cable_swap": 12,
+            "combined": 11,
+            "cut_inner_insulation": 14,
+            "cut_outer_insulation": 10,
+            "missing_cable": 12,
+            "missing_wire": 10,
+            "poke_insulation": 10
+        }
+    },
+    "capsule": {
+        "train": {
+            "good": 219
+        },
+        "test": {
+            "crack": 23,
+            "faulty_imprint": 22,
+            "good": 23,
+            "poke": 21,
+            "scratch": 23,
+            "squeeze": 20
+        },
+        "ground_truth": {
+            "crack": 23,
+            "faulty_imprint": 22,
+            "poke": 21,
+            "scratch": 23,
+            "squeeze": 20
+        }
+    },
+    "carpet": {
+        "train": {
+            "good": 280
+        },
+        "test": {
+            "color": 19,
+            "cut": 17,
+            "good": 28,
+            "hole": 17,
+            "metal_contamination": 17,
+            "thread": 19
+        },
+        "ground_truth": {
+            "color": 19,
+            "cut": 17,
+            "hole": 17,
+            "metal_contamination": 17,
+            "thread": 19
+        }
+    },
+    "grid": {
+        "train": {
+            "good": 264
+        },
+        "test": {
+            "bent": 12,
+            "broken": 12,
+            "glue": 11,
+            "good": 21,
+            "metal_contamination": 11,
+            "thread": 11
+        },
+        "ground_truth": {
+            "bent": 12,
+            "broken": 12,
+            "glue": 11,
+            "metal_contamination": 11,
+            "thread": 11
+        }
+    },
+    "hazelnut": {
+        "train": {
+            "good": 391
+        },
+        "test": {
+            "crack": 18,
+            "cut": 17,
+            "good": 40,
+            "hole": 18,
+            "print": 17
+        },
+        "ground_truth": {
+            "crack": 18,
+            "cut": 17,
+            "hole": 18,
+            "print": 17
+        }
+    },
+    "leather": {
+        "train": {
+            "good": 245
+        },
+        "test": {
+            "color": 19,
+            "cut": 19,
+            "fold": 17,
+            "glue": 19,
+            "good": 32,
+            "poke": 18
+        },
+        "ground_truth": {
+            "color": 19,
+            "cut": 19,
+            "fold": 17,
+            "glue": 19,
+            "poke": 18
+        }
+    },
+    "metal_nut": {
+        "train": {
+            "good": 220
+        },
+        "test": {
+            "bent": 25,
+            "color": 22,
+            "flip": 23,
+            "good": 22,
+            "scratch": 23
+        },
+        "ground_truth": {
+            "bent": 25,
+            "color": 22,
+            "flip": 23,
+            "scratch": 23
+        }
+    },
+    "pill": {
+        "train": {
+            "good": 267
+        },
+        "test": {
+            "color": 25,
+            "combined": 17,
+            "contamination": 21,
+            "crack": 26,
+            "faulty_imprint": 19,
+            "good": 26,
+            "pill_type": 9,
+            "scratch": 24
+        },
+        "ground_truth": {
+            "color": 25,
+            "combined": 17,
+            "contamination": 21,
+            "crack": 26,
+            "faulty_imprint": 19,
+            "pill_type": 9,
+            "scratch": 24
+        }
+    },
+    "screw": {
+        "train": {
+            "good": 320
+        },
+        "test": {
+            "good": 41,
+            "manipulated_front": 24,
+            "scratch_head": 24,
+            "scratch_neck": 25,
+            "thread_side": 23,
+            "thread_top": 23
+        },
+        "ground_truth": {
+            "manipulated_front": 24,
+            "scratch_head": 24,
+            "scratch_neck": 25,
+            "thread_side": 23,
+            "thread_top": 23
+        }
+    },
+    "tile": {
+        "train": {
+            "good": 230
+        },
+        "test": {
+            "crack": 17,
+            "glue_strip": 18,
+            "good": 33,
+            "gray_stroke": 16,
+            "oil": 18,
+            "rough": 15
+        },
+        "ground_truth": {
+            "crack": 17,
+            "glue_strip": 18,
+            "gray_stroke": 16,
+            "oil": 18,
+            "rough": 15
+        }
+    },
+    "toothbrush": {
+        "train": {
+            "good": 60
+        },
+        "test": {
+            "defective": 30,
+            "good": 12
+        },
+        "ground_truth": {
+            "defective": 30
+        }
+    },
+    "transistor": {
+        "train": {
+            "good": 213
+        },
+        "test": {
+            "bent_lead": 10,
+            "cut_lead": 10,
+            "damaged_case": 10,
+            "good": 60,
+            "misplaced": 10
+        },
+        "ground_truth": {
+            "bent_lead": 10,
+            "cut_lead": 10,
+            "damaged_case": 10,
+            "misplaced": 10
+        }
+    },
+    "wood": {
+        "train": {
+            "good": 247
+        },
+        "test": {
+            "color": 8,
+            "combined": 11,
+            "good": 19,
+            "hole": 10,
+            "liquid": 10,
+            "scratch": 21
+        },
+        "ground_truth": {
+            "color": 8,
+            "combined": 11,
+            "hole": 10,
+            "liquid": 10,
+            "scratch": 21
+        }
+    },
+    "zipper": {
+        "train": {
+            "good": 240
+        },
+        "test": {
+            "broken_teeth": 19,
+            "combined": 16,
+            "fabric_border": 17,
+            "fabric_interior": 16,
+            "good": 32,
+            "rough": 17,
+            "split_teeth": 18,
+            "squeezed_teeth": 16
+        },
+        "ground_truth": {
+            "broken_teeth": 19,
+            "combined": 16,
+            "fabric_border": 17,
+            "fabric_interior": 16,
+            "rough": 17,
+            "split_teeth": 18,
+            "squeezed_teeth": 16
+        }
+    }
+}
